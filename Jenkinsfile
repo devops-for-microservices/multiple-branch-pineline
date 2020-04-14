@@ -13,6 +13,7 @@ pipeline {
         sh 'mvn -v'
         sh 'git version'
         sh 'java -version'
+        sh 'docker version'
       }
     }
   }
