@@ -11,7 +11,8 @@ pipeline {
       steps {
         sh 'ls -la'
         sh 'mvn -v'
-        sh 'sudo docker version'
+        sh 'git version'
+        sh 'java -version'
       }
     }
   }
