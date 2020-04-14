@@ -11,6 +11,7 @@ pipeline {
       steps {
         sh 'ls -la'
         sh 'mvn -v'
+        sh 'docker version'
       }
     }
   }
