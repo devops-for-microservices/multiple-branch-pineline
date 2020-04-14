@@ -7,6 +7,11 @@ pipeline {
         echo 'hello world'
       }
     }
-
+    stage('execute sh commands') {
+      steps {
+        sh 'ls -la'
+        sh 'mvn -v'
+      }
+    }
   }
 }
