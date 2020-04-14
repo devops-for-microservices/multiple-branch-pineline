@@ -25,7 +25,7 @@ pipeline {
       }
     }
     
-    stage('deploy to QA') {
+    stage('deploy to UAT') {
       when {
          branch 'release'
       }
